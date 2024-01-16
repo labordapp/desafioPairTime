@@ -1,0 +1,62 @@
+html {
+    font: 15pt Arial;
+}
+body {
+    
+    background-size: 100% 100%;
+}
+
+div::before {
+    content: " Desafio Pair Time ";
+    font: 10pt Arial;
+    font-weight: bold;
+    color: white;
+    background-color: #273747;
+    padding: 5px;
+    display: block;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 560px;
+}
+
+div {
+    background-color: gray;
+    margin: 100px auto 100px auto;
+    padding: 10px;
+    width: 550px;
+    min-height:300px;
+    box-shadow: 10px 10px 10px;
+}
+
+a {
+    color: #273747;
+    font-weight: normal;
+    font: 10pt Helvetica;
+}
+
+a:hover {
+    background-color: #606a74;
+}
+
+span.foco {
+    font-weight: bold;
+    color: #7e050c;
+}
+
+*.botao {
+    font-weight: normal;
+    color: white;
+    background-color: #273747;
+    padding: 5px;
+    margin: 1px;
+}
+
+form {
+    border: none;
+}
+
+fieldset {
+    border: none;  
+}
+
